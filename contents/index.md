@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /page
+      link: /instruction
 
 features:
   - title: 命令式交互
