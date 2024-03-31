@@ -4,7 +4,7 @@ import getNavs from "../navs/zh_hans";
 
 export const zhHansConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     themeConfig: {
-        logo: "/logo/logo.png",
+        logo: "/logo/mako.png",
         outlineTitle: "目录",
         outline: "deep",
         nav: getNavs(),

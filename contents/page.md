@@ -4,8 +4,8 @@ title: "Page"
 lastUpdated: true
 ---
 
-# Features
-- i18n - multi-language support.
-- Animation on theme changing - [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API).
-- taze - 🥦 keep your dependencies fresh.🥦 
-- Pre-configured main page, navbars, sidebars
+# 特性
+- i18n - 多语言支持.
+- 主题切换动画 - [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API).
+- taze - 🥦 保持依赖最新🥦 
+- 预配置的主页，边栏，顶部菜单

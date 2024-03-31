@@ -1,7 +1,7 @@
 {
-  "name": "vitepress-starter",
+  "name": "mako-help",
   "version": "1.0.0",
-  "description": "♥️ Opinionated Vitepress Template ♥️",
+  "description": "茉子Bot的说明书",
   "type": "module",
   "scripts": {
     "serve": "vitepress dev contents",
@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.11.6",
-    "taze": "^0.13.1",
-    "vite": "^4.5.2",
+    "@types/node": "^20.12.2",
+    "taze": "^0.13.3",
+    "vite": "^5.2.7",
     "vitepress": "1.0.0-rc.22"
   }
 }
