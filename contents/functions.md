@@ -56,7 +56,19 @@ lastUpdated: true
 # 回答
 ROG（Republic of Gamers）主要销售游戏硬件产品，如笔记本电脑、台式机、主板、显卡、显示器和耳机。目前没有证据表明他们销售轮椅。
 ```
+## 雷索纳斯市场商品信息查询
 
+数据来源：[https://resonance.breadio.wiki/](https://resonance.breadio.wiki/)
+
+格式：`@茉子 雷索纳斯市场 <商品名>` 或 `@茉子 倒货 <商品名>`
+
+```shell
+# 提问
+@茉子 雷索纳斯市场 斑节虾
+
+# 或
+@茉子 倒货 斑节虾
+```
 
 ## 未完待续..
 更多功能敬请期待...

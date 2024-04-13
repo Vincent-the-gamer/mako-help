@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.12.3",
+    "@types/node": "^20.12.7",
     "taze": "^0.13.3",
     "vite": "^5.2.8",
     "vitepress": "1.0.0-rc.22"
