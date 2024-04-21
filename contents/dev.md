@@ -29,3 +29,8 @@ lastUpdated: true
 ```
 
 茉子会回答她当前的状态。
+
+## GitHub仓库预览
+无需艾特，直接输入仓库链接即可，茉子会回复预览图
+
+如：[https://github.com/Vincent-the-gamer/koishi-plugin-gemini-pro](https://github.com/Vincent-the-gamer/koishi-plugin-gemini-pro)
