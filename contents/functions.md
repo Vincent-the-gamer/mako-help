@@ -84,13 +84,37 @@ ROG（Republic of Gamers）主要销售游戏硬件产品，如笔记本电脑�
 可以运行多种编程语言代码
 
 目前支持的语言：
-- JavaScript
-
+- **JavaScript**
 ```shell
 # JavaScript
 @茉子 跑代码 js <你的代码> 
 # 或 
 @茉子 跑代码 javascript <你的代码>
+```
+
+- [**文言文编程语言(Wenyan-lang)**](https://github.com/wenyan-lang/wenyan)
+
+```shell
+# wenyan-lang
+@茉子 跑代码 文言 <你的代码>
+# 或
+@茉子 跑代码 wenyan <你的代码>
+```
+
+举例：
+```shell
+@茉子 跑代码 文言
+吾有一數。曰三。名之曰「甲」。
+為是「甲」遍。
+	吾有一言。曰「「問天地好在。」」。書之。
+云云。
+```
+
+茉子会回答：
+```
+問天地好在。
+問天地好在。
+問天地好在。
 ```
 
 
