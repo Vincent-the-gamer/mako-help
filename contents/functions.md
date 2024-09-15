@@ -19,7 +19,7 @@ lastUpdated: true
 ## 签到
 每日签到，可以获得10～20随机的`柚子点数`。
 
-关于`柚子点数`的作用，后续会联动其它功能。
+[什么是柚子点数？](./instruction.md#柚子点数)
 
 ```shell
 @茉子 签到
@@ -183,7 +183,7 @@ Remake !!!!
 
 随机获取一张妹子图片
 
-<font color="red" style="font-weight: bold;">每次使用该功能需要消耗「1」点妹子点数</font>
+<font color="red" style="font-weight: bold;">每次使用该功能需要消耗「1」点柚子点数</font>
 
 ```shell
 @茉子 妹子图片
