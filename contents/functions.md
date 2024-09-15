@@ -176,5 +176,18 @@ Remake !!!!
 @茉子 remake
 ```
 
+## 妹子图片 <Badge type="warning" text="实验性功能" />
+
+> [!WARNING]
+> 该功能伴随着货币系统同时上线，货币系统目前作为实验性功能，如果有Bug请及时反馈，非常感谢。
+
+随机获取一张妹子图片
+
+<font color="red" style="font-weight: bold;">每次使用该功能需要消耗「1」点妹子点数</font>
+
+```shell
+@茉子 妹子图片
+```
+
 ## 未完待续..
 更多功能敬请期待...
