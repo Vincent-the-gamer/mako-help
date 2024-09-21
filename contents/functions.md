@@ -127,6 +127,49 @@ ROG（Republic of Gamers）主要销售游戏硬件产品，如笔记本电脑�
 
   <语言>可以填`py`,`python`
 
+- **Java**
+
+  <语言>填`java`
+
+  示例代码：
+
+  ```java
+  class Main {
+      public static void main(String[] args) {
+          System.out.println("现在可以写Java了");
+      }
+  }
+  ```
+
+- **C++**
+
+  <语言>可以填`cpp`,`c++`
+
+  示例代码：
+  ```cpp
+  #include <iostream>
+  using namespace std;
+
+  int main() {
+      cout << "Hello World!";
+      return 0;
+  }
+  ```
+
+- **C**
+
+  <语言>可以填`c`,`C`
+
+  示例代码：
+  ```c
+  #include <stdio.h>
+
+  int main(void) {
+      printf("Hello World!\n");
+      return 0;
+  }
+  ```
+
 ## 点歌
 
 使用命令：
