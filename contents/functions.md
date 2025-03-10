@@ -4,6 +4,17 @@ title: "功能"
 lastUpdated: true
 ---
 
+<script lang="ts" setup>
+import { ref, onMounted } from "vue"
+
+const speakers = ref<Record<string, any>[]>([])
+
+onMounted(async () => {
+  const resp = await fetch("https://artrajz-vits-simple-api.hf.space/voice/speakers")
+  speakers.value = await resp.json()
+})
+</script>
+
 # 功能
 
 ## 简单问候
@@ -120,22 +131,26 @@ lastUpdated: true
 ```
 
 ## AI对话
-和AI进行对话，支持上下文，目前对接的是`Google`的`Gemini Pro`
+和AI进行对话，支持上下文，目前使用的模型是`DeepSeek R1 8B`.
 
 ```shell
-@茉子 ai 你的问题
+# 对话
+@茉子 deepseek 对话 你的问题
+@茉子 地铺系克 你的问题
 
-# 或
-@茉子 gemini 你的问题
+# 清空上下文
+@茉子 deepseek 清空上下文
+@茉子 地铺系克 清空上下文
 ```
 
 举例：
 ```shell
-@茉子 ai ROG败家之眼有卖轮椅的吗
+@茉子 地铺系克 ROG败家之眼有卖轮椅的吗
 
 # 回答
 ROG（Republic of Gamers）主要销售游戏硬件产品，如笔记本电脑、台式机、主板、显卡、显示器和耳机。目前没有证据表明他们销售轮椅。
 ```
+
 ## 雷索纳斯市场商品信息查询
 
 数据来源：[https://resonance.breadio.wiki/](https://resonance.breadio.wiki/)
@@ -337,7 +352,31 @@ Remake !!!!
 @茉子 抽象话 <你的内容>
 ```
 
-此功能为被动技能。
+## AI语音
+
+通过指定角色编号和内容来获取语音。
+
+```shell
+@茉子 语音 <角色编号> <你的内容>
+```
+
+### 编号与角色对应关系表：
+
+<table>
+  <tbody>
+    <tr>
+      <th>编号</th>
+      <th>支持语言</th>
+      <th>角色名称</th>
+    </tr>
+    <tr v-for="role of speakers.VITS" :key="role.id">
+      <td>{{ role.id }}</td>
+      <td>{{ role.lang.join(",") }}</td>
+      <td>{{ role.name }}</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 未完待续..
 更多功能敬请期待...
