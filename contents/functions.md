@@ -366,13 +366,13 @@ Remake !!!!
   <tbody>
     <tr>
       <th>编号</th>
-      <th>支持语言</th>
       <th>角色名称</th>
+      <th>支持语言</th>
     </tr>
     <tr v-for="role of speakers.VITS" :key="role.id">
       <td>{{ role.id }}</td>
-      <td>{{ role.lang.join(",") }}</td>
       <td>{{ role.name }}</td>
+      <td>{{ role.lang.join(",") }}</td>
     </tr>
   </tbody>
 </table>
