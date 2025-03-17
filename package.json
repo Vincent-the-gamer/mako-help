@@ -14,8 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.10",
-    "taze": "^18.7.1",
-    "vite": "^6.2.1",
+    "taze": "^19.0.2",
+    "vite": "^6.2.2",
     "vitepress": "^2.0.0-alpha.4"
   },
   "pnpm": {
